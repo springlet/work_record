@@ -1,1 +1,7 @@
-1.遇到xxxx问题
+1.在适应idea上的maven插件 install:install 报错：
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install (default-cli) on project StarTeamCollisionUtil: The packaging for this project did not assign a file to the build artifact -> [Help 1]
+
+解决方法如下：适应maven命令行执行：mvn jar:jar install:install
+链接：http://stackoverflow.com/questions/6308162/maven-the-packaging-for-this-project-did-not-assign-a-file-to-the-build-artifac
+
+
