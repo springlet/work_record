@@ -1,0 +1,2 @@
+1.IntelliJ Idea编译报错：javacTask: 源发行版 1.7 需要目标发行版 1.7
+选中项目，右击选择Maven-->Reimport, 再次编译，问题解决。
