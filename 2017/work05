@@ -3,4 +3,9 @@
 
 2.有关于钱的代码，必须非常的仔细。更新任何状态都必须判断此状态是否被更改，已及打好相关日志，以便于误操作时恢复状态。更新的时候使用where status=xx.
 
-3.joda-time 替换jdk原始calendar ，可以使获取时间，装换时间更加方便
+3.joda-time 替换jdk原始calendar ，可以使获取时间，转换时间更加方便
+
+4.Mac使用zsh作为默认shell时，默认不会加载 .bashrc .bash_profile文件，需要在.zshrc 里加上如下代码：
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi
